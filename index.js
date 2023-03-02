@@ -43,7 +43,7 @@ http.createServer(function (req, res) {
         hostname,
         ip,
         id: r,
-        service: "bmtmapprao"
+        service: "hello"
     })); //write a response to the client
     res.end(); //end the response
     logger.info('Request from ' + ip + ', id: ' + r);
